@@ -126,9 +126,34 @@ p{
 .container3{
     /* width: 100vw; */
     text-align: center;
+    margin-top: 3%;
     /* height: 100vh; */
 }
 img{
     width: 80%;
     height: 90%;
+}
+@media screen and (max-width:900px) {
+    img{
+        width: 105%;
+        height: 115%;
+    }
+    .container3{
+        /* width: 100vw; */
+        text-align: center;
+        margin-top: 78%;
+        /* height: 100vh; */
+    }
+}
+@media screen and (max-width:1440px) {
+    img{
+        width: 105%;
+        height: 115%;
+    }
+    .container3{
+        /* width: 100vw; */
+        text-align: center;
+        margin-top: 78%;
+        /* height: 100vh; */
+    }
 }
